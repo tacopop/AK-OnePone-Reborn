@@ -16,7 +16,7 @@ DEFCONFIG="ak_bacon_defconfig"
 
 # Kernel Details
 BASE_AK_VER="AK"
-VER=".073.OPO.SKULL.CM12"
+VER=".074.OPO.SKULL.CM12"
 AK_VER="$BASE_AK_VER$VER"
 
 # Vars

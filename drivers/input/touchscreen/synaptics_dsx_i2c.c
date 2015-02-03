@@ -4164,10 +4164,10 @@ static int synaptics_rmi4_set_input_dev(struct synaptics_rmi4_data *rmi4_data)
 
 	atomic_set(&rmi4_data->syna_use_gesture, 0);
 	atomic_set(&rmi4_data->double_tap_enable, 1);
-	atomic_set(&rmi4_data->camera_enable, 0);
-	atomic_set(&rmi4_data->music_enable, 0);
-	atomic_set(&rmi4_data->flashlight_enable, 0);
-	atomic_set(&rmi4_data->silent_vib_sound_enable, 0);
+	atomic_set(&rmi4_data->camera_enable, 1);
+	atomic_set(&rmi4_data->music_enable, 1);
+	atomic_set(&rmi4_data->flashlight_enable, 1);
+	atomic_set(&rmi4_data->silent_vib_sound_enable, 1);
 	atomic_set(&rmi4_data->sweep_wake_enable, 0);
 	atomic_set(&rmi4_data->sweep_vol_enable, 0);
 

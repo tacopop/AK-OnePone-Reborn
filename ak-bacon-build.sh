@@ -21,7 +21,7 @@ AK_VER="$BASE_AK_VER$VER"
 
 # Vars
 export LOCALVERSION=~`echo $AK_VER`
-export CROSS_COMPILE=${HOME}/android/AK-uber-5.0/bin/arm-eabi-
+export CROSS_COMPILE=${HOME}/android/AK-uber-5.0-v2/bin/arm-eabi-
 export ARCH=arm
 export SUBARCH=arm
 export KBUILD_BUILD_USER=ak
@@ -33,7 +33,7 @@ REPACK_DIR="${HOME}/android/AK-OnePone-AnyKernel2"
 PATCH_DIR="${HOME}/android/AK-OnePone-AnyKernel2/patch"
 MODULES_DIR="${HOME}/android/AK-OnePone-AnyKernel2/modules"
 ZIP_MOVE="${HOME}/android/AK-releases"
-ZIMAGE_DIR="${HOME}/android/AK-OnePone/arch/arm/boot"
+ZIMAGE_DIR="${HOME}/android/AK-OnePone-Reborn/arch/arm/boot"
 
 # Functions
 function clean_all {
